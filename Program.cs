@@ -10,6 +10,8 @@ class Program
         lms.AddBook(new Book("1", "The Great Gatsby", "F. Scott Fitzgerald", "1234567890123"), true);
         lms.AddBook(new Book("2", "1984", "George Orwell", "9876543210123"), true);
         lms.AddBook(new Book("3", "To Kill a Mockingbird", "Harper Lee", "4567891230123"), true);
+        lms.AddBook(new Book("4", "To Kill  Mockingbird", "Harper Lee", "1566121321515"), true);
+
 
         lms.RegisterMember(new Member("1", "Ali", "ali@example.com"), true);
         lms.RegisterMember(new Member("2", "Sara", "sara@example.com"), true);
